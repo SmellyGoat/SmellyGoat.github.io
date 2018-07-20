@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html class="modern  -webkit- js no-touch cssanimations csstransitions" lang="en-US" style>
+	<head>
+		<title>HTML: Images</title>
+
+	<style>
+
+	#about_text {
+		text-shadow: 1px 1px;
+		text-align: center;
+		margin: auto;
+		left: 122px;
+		position: absolute;
+		color: black;
+		font-family: Courier New;
+	}
+
+	#about_text2 {
+		text-shadow: 1px 1px;
+		text-align: center;
+		margin: auto;
+		position: absolute;
+		color: black;
+		font-family: Courier New;
+	}
+
+	#Contact_text {
+		text-shadow: 1px 1px;
+		text-align: center;
+		margin: auto;
+		left: 288px;
+		top: 30px;
+		position: absolute;
+		color: black;
+		font-family: Courier New;
+	}
+
+	#Contact_text2 {
+		text-shadow: 1px 1px;
+		text-align: center;
+		margin: auto;
+		left: 332px;
+		top: 30px;
+		position: absolute;
+		color: black;
+		font-family: Courier New;
+	}
+
+	#Contact_text3 {
+		text-shadow: 1px 1px;
+		text-align: center;
+		margin: auto;
+		left: 328px;
+		top: 30px;
+		position: absolute;
+		color: black;
+		font-family: Courier New;
+	}
+
+	#Background {
+	background-image: url(https://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg);
+	height: 670px;
+    width: 1400px;
+    background-position: left bottom;
+    background-repeat: repeat;
+    padding: 10px;
+	}
+
+	#Name-Pic {
+	height: 580px;
+    width: 650px;
+    margin: 10px;
+    background-color: white;
+    border: 2px solid #4CAF50;
+    position: relative;
+    bottom: 590px;
+	padding: 0px;
+	}
+
+	#Name-Box {
+	height: 60px;
+	width: 1380px;
+	margin: 10px;
+    border: 2px solid #4CAF50;
+	background-color: white;
+	position: relative;
+	padding: 0px;
+	}
+
+	#About {
+	height: 280px;
+	width: 350px;
+	margin: 10px;
+    border: 2px solid #4CAF50;
+	background-color: white;
+	position: relative;
+	left: 1030px;
+	bottom:2px;
+	padding: 0px;
+	opacity: 0.75;
+	}
+
+	#About:hover {
+	height: 280px;
+	width: 350px;
+	margin: 10px;
+    border: 2px solid #4CAF50;
+	background-color: white;
+	position: relative;
+	left: 1030px;
+	bottom:2px;
+	padding: 0px;
+	opacity: 1;
+	}
+
+	#About2 {
+	height: 280px;
+	width: 350px;
+	margin: 10px;
+    border: 2px solid #4CAF50;
+	background-color: white;
+	position: relative;
+	left: 660px; 
+	bottom: 296px;
+	padding: 0px;
+	opacity: 0.75;
+	}
+
+	#About2:hover {
+	height: 280px;
+	width: 350px;
+	margin: 10px;
+    border: 2px solid #4CAF50;
+	background-color: white;
+	position: relative;
+	left: 660px; 
+	bottom: 296px;
+	padding: 0px;
+	opacity: 1;
+	}
+
+	#Contact {
+	height: 86px;
+	width: 720px;
+	margin: 10px;
+    border: 2px solid #4CAF50;
+	background-color: white;
+	position: relative;
+	left: 660px; 
+	bottom: 890px;
+	padding: 0px;
+	opacity: 0.75
+	}
+
+	#Contact:hover {
+	height: 86px;
+	width: 720px;
+	margin: 10px;
+    border: 2px solid #4CAF50;
+	background-color: white;
+	position: relative;
+	left: 660px; 
+	bottom: 890px;
+	padding: 0px;
+	opacity: 1
+	}
+
+	#Idk {
+	height: 86px;
+	width: 720px;
+	margin: 10px;
+    border: 2px solid #4CAF50;
+	background-color: white;
+	position: relative;
+	left: 660px; 
+	bottom: 890px;
+	padding: 0px;
+	opacity: 0.75
+	}
+
+	#Idk:hover {
+	height: 86px;
+	width: 720px;
+	margin: 10px;
+    border: 2px solid #4CAF50;
+	background-color: white;
+	position: relative;
+	left: 660px; 
+	bottom: 890px;
+	padding: 0px;
+	opacity: 1
+	}
+
+	#Idk2 {
+	height: 86px;
+	width: 720px;
+	margin: 10px;
+    border: 2px solid #4CAF50;
+	background-color: white;
+	position: relative;
+	left: 660px; 
+	bottom: 890px;
+	padding: 0px;
+	opacity: 0.75
+	}
+
+	#Idk2:hover {
+	height: 86px;
+	width: 720px;
+	margin: 10px;
+    border: 2px solid #4CAF50;
+	background-color: white;
+	position: relative;
+	left: 660px; 
+	bottom: 890px;
+	padding: 0px;
+	opacity: 1
+	}
+
+.stage {
+    box-sizing: border-box;
+    height: 580px;
+    width: 650px;
+    padding-top: 480px;
+    margin: auto;
+    background-color: gray;
+    border-bottom: 5px solid #000000;
+}
+
+.ball {
+    height: 100px;
+    width: 100px;
+    background-color: #FF0000;
+    margin: auto;
+    border-radius: 100%;
+    animation-name: ball-animation;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    animation-direction: alternate;
+}
+
+@keyframes ball-animation {
+    0% {
+        background-color:red ;
+    }
+
+    100% {
+        transform: translate(0, -240px);
+        background-color: yellow;
+    }
+
+}
+	a:link {
+    text-decoration: none;
+}
+	
+	</style>
+	</head>
+	<body> 
+	<div id="Background">
+	<div id="Name-Box">
+	<h2 style="text-align:center"> Resume: Ken Tharit Ngamprasertsith </h2>
+	</div>
+	<div id="About">
+	<img src="https://res.cloudinary.com/teepublic/image/private/s--ppWDpp5W--/t_Preview/b_rgb:ffffff,c_limit,f_auto,h_313,q_90,w_313/v1481313590/production/designs/927825_1" width="348" height="248">
+	<h2 id="about_text"> <a href="aboutme.html" target="blank_">About me</a> </h2> 
+	</div>
+	<div id="About2">
+	<img src="https://www.freepngimg.com/thumb/trophy/4-2-trophy-picture-thumb.png" width="348" height="248">
+	<h2 id="about_text2"> <a href="accomplishments.html" target="blank_">Projects/Accomplishments</a> </h2> 
+	</div>
+	<div id="Name-Pic">
+	<div class="stage">
+    <div class="ball"></div>
+    </div>
+	</div>
+	<div id="Contact"> 
+	<h2 id="Contact_text"> <a href="Contact.html" target="blank_"> Contact me </a> </h2> 
+	</div>
+	<div id="Idk">
+	<h2 id="Contact_text2"> <a href="Chicken1.html" target="blank_"> Idk </a> </h2> 
+	</div>
+	<div id="Idk2">
+	<h2 id="Contact_text3"> <a href="aksdasd.html" target="blank_"> Idk2 </a> </h2> 
+	</div>
+	</div>
+	</div>	
+	</body>
+	</html>
