@@ -1,2 +1,1 @@
-# SmellyGoat.github.io
-
+# smellygoat
