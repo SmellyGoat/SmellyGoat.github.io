@@ -1,0 +1,42 @@
+
+.stage {
+    box-sizing: border-box;
+    height: 600px;
+    width: 800px;
+    padding-top: 495px;
+    margin: auto;
+    background-color: blue;
+    border-bottom: 5px solid #000000;
+}
+
+.ball {
+    height: 100px;
+    width: 100px;
+    background-color: #FF0000;
+    margin: auto;
+    border-radius: 100%;
+    animation-name: ball-animation;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    animation-direction: alternate;
+}
+
+@keyframes ball-animation {
+    0% {
+        background-color:red ;
+    }
+
+    100% {
+        transform: translate(0, -450px);
+        background-color: yellow;
+    }
+
+}
+a {
+    font-family: 'Gaegu', cursive;
+    font-size: 24px;
+    color: green;
+    text-decoration: none;
+}
+
